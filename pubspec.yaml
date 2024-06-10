@@ -1,0 +1,31 @@
+name: flutter_webview
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.9.2
+
+
+flutter:
+  uses-material-design: true
+
+asstes:
+  - assets/icon.png
+
+flutter_icons:
+  android: true 
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#000000" # Solo per Android
+  adaptive_icon_foreground: "assets/icon.png" # Solo per Android
