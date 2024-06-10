@@ -24,3 +24,14 @@ Per mantenere tutto il codice ordinato e leggibile, utilizziamo la struttura sta
 Creiamo il widget custom già menzionato in precedenza `webview_screen.dart` utilizzando il componente `WebViewWidget` 💻✨
 
 Andremo ad utilizzare il nostro widget nel file d'ingresso della nostra app `main.dart` 📄🚀
+
+# Step 3 🚀
+In questo step, dopo aver incapsulato il sito scelto in un'applicazione mobile, vengono fatte delle modifiche grafiche per allontanare la UI da quella del classico sito, facendo si che la UX sia più rivolta verso quella di un'applicazione mobile.🌐📱
+
+Le modifiche grafiche apportate sono le seguenti:
+
+1. Creazione del componente che utilizzeremo come `NavigationBar`, il widget `NavigationBarCustom` 📐🛠️
+Per la costruzione della barra di navigazione utilizzeremo i componenti che fornisce Flutter. Manteniamo separati i Widget che andremo a creare per mantenere pulito il codice. 🗂️✨
+Per scorrere tra le pagine create utilizzeremo il `Controller` che viene fornito direttamente dal componente `WebViewWidget` 📄➡️📄
+
+2. Modifica del componente `StatusBar` attraverso l'utilizzo della classe `SystemChrome` raggiungibile tramite il pacchetto `flutter/services.dart` ⚙️📲

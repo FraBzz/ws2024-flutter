@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webview/config/constants.dart';
+import 'package:flutter_webview/widgets/navigation_bar.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebViewScreen extends StatefulWidget {
@@ -23,7 +24,10 @@ class _WebViewScreenState extends State<WebViewScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: WebViewWidget(controller: _controller),
+      body: SafeArea(
+        child: WebViewWidget(controller: _controller),
+      ),
+      bottomNavigationBar: NavigationBarCustom(controller: _controller),
     );
   }
 }
