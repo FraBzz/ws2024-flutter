@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_webview/services/onesignal_service.dart';
 import 'package:flutter_webview/widgets/webview_screen.dart';
 
 void main() {
+  OneSignalService.initOneSignal();
   runApp(const MainApp());
 }
 

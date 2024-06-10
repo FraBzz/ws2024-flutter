@@ -35,3 +35,10 @@ Per la costruzione della barra di navigazione utilizzeremo i componenti che forn
 Per scorrere tra le pagine create utilizzeremo il `Controller` che viene fornito direttamente dal componente `WebViewWidget` 📄➡️📄
 
 2. Modifica del componente `StatusBar` attraverso l'utilizzo della classe `SystemChrome` raggiungibile tramite il pacchetto `flutter/services.dart` ⚙️📲
+
+# Step 4 🚀
+In questo ultimo step, andiamo ad aggiungere `OneSignal` per la gestione delle notifiche push 📲🔔
+
+Tutto il necessario per la configurazione e ricavabile dalla documentazione di OneSignal direttamente a questo link https://documentation.onesignal.com/docs/flutter-sdk-setup 🌐📄
+
+Teniamo ordinata la struttura creando una cartella `lib/services` che conterrà tutti i nostri servizi, come `onesignal_service.dart` che si occuperà di inizializzare OneSignal 📂⚙️
